@@ -1,0 +1,11 @@
+/* Light mode mein default cursor hide karein */
+html:not(.dark) body {
+  cursor: none !important;
+}
+
+/* Taaki buttons aur links par kaam kare */
+html:not(.dark) a, 
+html:not(.dark) button, 
+html:not(.dark) input {
+  cursor: none !important;
+}
